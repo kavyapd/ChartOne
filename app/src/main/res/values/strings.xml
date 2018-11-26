@@ -1,0 +1,27 @@
+<resources>
+
+    <string name="Welcome">Nego Tracker</string>
+    <string name="Name">Name</string>
+    <string name="app_name">Nego</string>
+    <string name="app">Filters</string>
+    <string name="Filter">kavya</string>
+    <string name="app1">Graph</string>
+    <string name="Filters">Filters</string>
+    <string name="supplier">Supplier</string>
+    <string name="Category">Category</string>
+    <string name="Buyer">Buyer</string>
+
+    <string name="Group_Manager">Group_Manager</string>
+    <string name="Year">Year</string>
+    <string name="Count">Count</string>
+    <string name="Spend">Spend</string>
+    <string name="Choice">Choice</string>
+    <string name="Apply_Filter">Apply filter</string>
+    <string name="spinner_title">Select</string>
+    <string name="Button">Button</string>
+    <string name="second_page">Second page</string>
+    <string name="RecNonRec">Rec/Non-Rec</string>
+    <string name="HecNec">HEC/NEC</string>
+    <string name="Single">Single/Multi</string>
+    <string name="nego">Nego Level</string>
+</resources>

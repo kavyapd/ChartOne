@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1E90FF"
+    tools:context="com.example.developer.chart.MainActivity">
+
+    <TextView
+        android:layout_width="273dp"
+        android:layout_height="129dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="216dp"
+        android:layout_marginEnd="45dp"
+
+
+        android:layout_marginRight="45dp"
+
+
+        android:drawableTop="@drawable/ic_track_changes_black_24dp"
+        android:paddingStart="10dp"
+        android:paddingLeft="25dp"
+
+        android:paddingEnd="0dp"
+        android:paddingRight="0dp"
+        android:text="@string/Welcome"
+        android:textColor="	#FFFFFF"
+
+        android:textSize="35sp"
+
+        android:textStyle="italic" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+
+
+
+    <LinearLayout
+        android:id="@+id/laytbtns"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        style="?android:attr/buttonBarStyle">
+        <Button
+            android:id="@+id/button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/ic_pie_chart_black_24dp"
+            android:drawableStart="@drawable/ic_pie_chart_black_24dp"
+
+            android:paddingLeft="25dp"
+            android:paddingStart="25dp"
+            android:paddingRight="0dp"
+            android:paddingEnd="0dp"
+
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="0dp"
+
+            android:layout_marginBottom="25dp"
+            android:background="#1E90FF"
+            android:text="@string/app1"
+
+            android:textColor="#FFFFFF"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_marginEnd="0dp"/>
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/ic_subject_black_24dp"
+            android:drawableStart="@drawable/ic_subject_black_24dp"
+
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="20dp"
+
+            android:layout_marginTop="0dp"
+
+            android:layout_marginBottom="25dp"
+            android:background="#1E90FF"
+            android:text="@string/app"
+            android:textColor="#FFFFFF"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_marginEnd="5dp"
+            android:paddingLeft="25dp"
+            android:paddingStart="25dp"
+            android:paddingRight="0dp"
+            android:paddingEnd="0dp"/>
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="171dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:shape="rectangle"
+            android:text="@string/RecNonRec"
+            android:textSize="20sp"
+            android:textColor="#000000"/>
+
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/chart"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/border2"
+
+            android:text="@string/RecNonRec">
+
+        </com.github.mikephil.charting.charts.PieChart>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="171dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/HecNec"
+            android:textSize="20sp"
+            android:textColor="#000000"/>
+
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/chart1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/border2">
+
+        </com.github.mikephil.charting.charts.PieChart>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="171dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/Single"
+            android:textSize="20sp"
+            android:textColor="#000000"/>
+
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/chart2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:baselineAligned="false"
+            android:background="@drawable/border2"
+            android:orientation="horizontal">
+
+        </com.github.mikephil.charting.charts.PieChart>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="171dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/nego"
+            android:textSize="20sp"
+            android:textColor="#000000"/>
+
+
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/chart3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/border2"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+        </com.github.mikephil.charting.charts.PieChart>
+
+    </LinearLayout>
+
+</ScrollView>
