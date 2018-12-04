@@ -56,10 +56,6 @@ public class SecondActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
 
-
-
-
-
         nchart= (PieChart)findViewById(R.id.chart);
         nchart1= (PieChart)findViewById(R.id.chart1);
         nchart2= (PieChart)findViewById(R.id.chart2);
@@ -87,6 +83,7 @@ public class SecondActivity extends AppCompatActivity {
         entries3.add(new PieEntry(40,"Local"));
         entries3.add(new PieEntry(11,"SE"));
         entries3.add(new PieEntry(2,"Global"));
+
         PieDataSet dataSet = new PieDataSet(entries,"");
         PieData data= new PieData(dataSet);
 
@@ -102,25 +99,23 @@ public class SecondActivity extends AppCompatActivity {
 
 
       //  dataSet.setColors(ColorTemplate.COLORFUL_COLORS);
-        dataSet.setColors(ColorTemplate.VORDIPLOM_COLORS);
-
-
+        dataSet.setColors(new int[]{Color.parseColor("#F96232"),Color.parseColor("#2E9CA6")});
         dataSet.setSliceSpace(5f);
-        dataSet.setValueTextSize(14f);
+        dataSet.setValueTextSize(10f);
         nchart.setUsePercentValues(true);
         nchart.setDrawHoleEnabled(true);
         nchart.setData(data);
 
      //   dataSet.setColors(ColorTemplate.LIBERTY_COLORS);
-       dataSet1.setColors(new int []{Color.BLUE,Color.YELLOW,Color.GREEN});
+       dataSet1.setColors(new int []{Color.parseColor("#82B149")});
         dataSet1.setSliceSpace(5f);
         dataSet1.setValueTextSize(14f);
         nchart1.setUsePercentValues(true);
         nchart1.setDrawHoleEnabled(true);
 
         nchart1.setData(data1);
-         dataSet.setColors(ColorTemplate.COLORFUL_COLORS);
-//        dataSet2.setColors(new int []{Color.BLUE,Color.YELLOW,Color.CYAN});
+//         dataSet.setColors(ColorTemplate.COLORFUL_COLORS);
+        dataSet2.setColors(new int []{Color.parseColor("#3366CC")});
         dataSet2.setSliceSpace(5f);
         dataSet2.setValueTextSize(14f);
         nchart2.setUsePercentValues(true);
@@ -128,7 +123,7 @@ public class SecondActivity extends AppCompatActivity {
         nchart2.setData(data2);
 
       //  dataSet.setColors(ColorTemplate.COLORFUL_COLORS);
-       dataSet3.setColors(new int []{Color.YELLOW,Color.GREEN,Color.CYAN});
+       dataSet3.setColors(new int []{Color.parseColor("#EF5030"),Color.parseColor("#F6AD2A"),Color.parseColor("#199C5C")});
         dataSet3.setSliceSpace(5f);
         dataSet3.setValueTextSize(14f);
         nchart3.setUsePercentValues(true);
